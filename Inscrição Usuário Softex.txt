@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		// Exemplo de propostas de variáveis
+		inteiro cpf
+		inteiro rg
+		real altura
+		caracter endereco
+		caracter nome
+	
+		escreva("Inscrição Softex: \n")
+
+		// Atribuição para o nome completo na variável nome
+		nome = "José Almeida da Silva"
+
+		// Atribuição para CPF na variável cpf
+		cpf = 12345678900
+
+		// Atribuição para o RG na variável rg
+		rg = 9517530
+
+		// Atribuição para altura na variável altura
+		altura = 1.78
+
+		// Atribuição para o endereço na variável endereco
+		endereco = "Rua A, 380 - Centro - Recife/PE"
+		
+	}
+}
