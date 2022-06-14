@@ -1,0 +1,51 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		// Exemplo de propostas de variáveis
+		inteiro cpf
+		inteiro rg
+		inteiro peso
+		inteiro idade
+		real rendaBruta
+		caracter nomeMae
+		caracter nomePai
+		caracter cidade
+		caracter endereco
+		caracter nome
+	
+		escreva("Inscrição Softex: \n")
+
+		escreva("Digite seu nome completo: ")
+		leia(nome)
+
+		escreva("Digite sua idade: ")
+		leia(idade)
+
+		escreva("Digite seu CPF sem traços ou pontos: ")
+		leia(cpf)
+
+		escreva("Digite seu RG sem pontos: ")
+		leia(rg)
+
+		escreva("Digite seu peso: ")
+		leia(peso)
+
+		escreva("Digite o valor da sua renda bruta mensal: ")
+		leia(rendaBruta)
+
+		escreva("Digite o nome da sua cidade: ")
+		leia(cidade)
+
+		escreva("Digite o seu endereço completo: ")
+		leia(endereco)
+
+		escreva("Digite o nome completo da sua mãe: ")
+		leia(nomeMae)
+
+		escreva("Digite o nome completo do seu pai: ")
+		leia(nomePai)
+		
+	}
+}
