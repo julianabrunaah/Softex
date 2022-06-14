@@ -1,0 +1,16 @@
+Instruções do projeto
+
+Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
+Eles são divididos conforme a ilustração 1 em anexo.
+
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um. 
+
+Resposta
+
+O professor organizou os 36 alunos em um padrão. Ele organizou os alunos em seis colunas de seis linhas cada. Nas duas primeiras colunas ele colocou um aluno que gosta de Português em cada linha. Na terceira e quarta linha ele colocou tanto  alunos que gostam de Português, quanto alunos que gostam de Matemática, porém os distribuiu de forma pradronizada. Nas três primeiras linhas tanto da coluna 3, como na coluna 4, ele distribuiu os alunos que gostavam de Português, os deixando lado a lado, e nas três outras linhas, os que gostavam de matemática. Já nas duas ultimas colunas ficaram apenas os alunos que gostavam de matemática. Fazendo esse tipo de agrupamento, ele pode reconhecer o padrão com mais facilidade e assim também a quebra do mesmo. A partir do momento que que um aluno da penultima coluna trocou, visto que, nessa coluna, anteriormente, só alunos que gostam de Matemática a ocupavam 
+ 
