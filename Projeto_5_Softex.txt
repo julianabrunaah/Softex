@@ -1,0 +1,236 @@
+programa {
+	funcao inicio() {
+		// Exemplo de propostas de variáveis
+		//terrestre
+		caracter txtTipo
+		//transportes possiveis
+		caracter txtTrator
+		caracter txtTrem
+		caracter txtBicicleta
+		caracter txtMoto
+		caracter txtCaminhao
+		caracter txtOnibus
+		//aereo
+		caracter txtAereo
+		//transportes possiveis
+		caracter txtParaquedas
+		caracter txtAviao
+		caracter txtHelicoptero
+		//aquatico
+		caracter txtAquatico
+		//transportes possiveis
+		caracter txtSubmarino
+		caracter txtBarco
+		caracter txtNavio
+		                                                                                                                                                                                     //juliana B.
+	
+		escreva("Vamos jogar! \n")
+		escreva ("Vou adivinhar no que você está pensando! \n")
+		escreva("### ATENÇÃO ### \n ")
+		escreva("Todas as respostas devem ser escritas utilizando 's' para SIM e 'n' para não \n")
+		
+		escreva("Seu transporte é Terretre? ")
+		leia(txtTipo)
+		escolha(txtTipo){
+		    
+			caso 's':
+			caso 'S':
+			escreva("Seu transporte possui trilhos?")
+			leia(txtTrem)
+			  escolha(txtTrem){
+			        
+			        caso 's':
+			        caso 'S':
+			        escreva ("Seu transporte é um Trem!")
+			        
+			        pare
+			        
+			        caso 'n':
+			        caso 'N':
+			        escreva ("Seu transporte possui motor? ")
+			        leia(txtBicicleta)
+			        
+			            escolha(txtBicicleta){
+			                
+			                caso 's':
+			                caso 'S':
+			                escreva("Seu transporte transporta até no máximo duas pessoas?")
+			                leia(txtMoto)
+			                
+			                escolha(txtMoto){
+			                                                                                                                                                                                  //Juliana B.
+			                    caso 's':
+			                    caso 'S':
+			                    escreva("Seu transporte é uma Moto!")
+			                    
+			                    pare
+			                    
+			                    caso 'n':
+			                    caso 'N':
+			                    escreva("Seu transporte é utilizado para transportas cargas?")
+			                    leia(txtCaminhao)
+			                    
+			                    escolha(txtCaminhao){
+			                        
+			                        caso 's':
+			                        caso 'S':
+			                        escreva("Seu transporte é um Caminhão!")
+			                        
+			                        pare
+			                        
+			                        caso 'n':
+			                        caso 'N':
+			                        escreva("Seu transporte é acomoda até 40 pessoas?")
+			                        leia(txtOnibus)
+			                        
+			                        escolha(txtOnibus){
+			                            
+			                            caso 's':
+			                            caso 'S':
+			                            escreva("Seu transporte é um Ônibus!")
+			                            
+			                            pare
+			                            
+			                            caso 'n':
+			                            caso 'N':
+			                            escreva("Seu transporte é usado em obras?")                                                                                                                                                                                //Juliana
+			                            leia(txtTrator)
+			                            
+			                            escolha(txtTrator){
+			                                                                                                                                                                                                                     //Juliana B.
+			                                caso 's':
+			                                caso 'S':
+			                                escreva("Seu transporte é um trator!")
+			                                
+			                                pare
+			                                
+			                                caso 'n':
+			                                caso 'N':
+			                                escreva("Seu transporte é um carro!")
+			                            }pare
+			                        }pare
+			                    }pare
+			                }pare
+			                
+			                caso 'n':
+			                caso 'N':
+			                escreva("Seu transporte é uma bicicleta!")
+			            }pare
+			    }pare
+			
+			caso 'n':
+			caso 'N':
+			escreva("Seu transporte é Aéreo? ")
+			leia(txtAereo)
+			                                                                                                                                                                                      //Juliana B.
+			escolha(txtAereo){
+			    
+				caso 's':
+				caso 'S':
+				escreva("Seu transporte cabe em uma mochila? ")
+				leia(txtParaquedas)
+				
+				escolha(txtParaquedas){
+				    
+				    caso 's':
+				    caso 'S':
+				    escreva("SeuTransporte é uma Paraquedas!")
+				    
+				    pare
+				                                                                                                                                                                     //Juliana B
+				    caso 'n':
+				    caso 'N':
+				    escreva("Seu transporte possui hélices?")
+				    leia(txtHelicoptero)
+				    
+				    escolha(txtHelicoptero){
+				        
+				        caso 's':
+				        caso 'S':
+				        escreva("Seu transporte é um Helicóptero")
+				        
+				        pare
+				        
+				        caso 'n':
+				        caso 'N':
+				        escreva("Seu transporte possui assas?")
+				        leia(txtAviao)
+				        
+				        escolha(txtAviao){
+				            
+				            caso 's':
+				            caso 'S':
+				            escreva("Seu transporte é um Avião!")
+				            
+				            pare
+				                                                                                                                                                                          //Juliana B.
+				            caso 'n':
+				            caso 'N':
+				            escreva("Seu transporte é um Balão!")
+				            
+				        }pare
+				        
+				    }pare
+				    
+				}pare                                                                                                                                                                        //Juliana B.
+				
+				caso 'n':
+				caso 'N':
+				escreva("Seu transporte é Aquático?")
+				leia(txtAquatico)
+				
+				escolha(txtAquatico){
+				    
+				    caso 's':
+				    caso 'S':
+				    escreva("Seu transporte é capaz de submergir (afundar)?")
+				    leia(txtSubmarino)
+				    
+				    escolha(txtSubmarino){
+				        
+				        caso 's':
+				        caso 'S':
+				        escreva("Seu transporte é um submarino!")
+				        
+				        pare
+				        
+				        caso 'n':
+				        caso 'N':
+				        escreva("O exemplar mais famoso do seu transporte é o Titanic?")
+				        leia(txtNavio)
+				        
+				        escolha(txtNavio){
+				            
+				            caso 's':
+				            caso 'S':
+				            escreva("Seu transporte é um Navio!")
+				            
+				            pare
+				            
+				            caso 'n':
+				            caso 'N':
+				            escreva("Seu começa com a letra B?")
+				            leia(txtBarco)
+				            
+				            escolha(txtBarco){
+				               
+				               caso 's':
+				               caso 'S':
+				               escreva("Seu transporte é um Barco!")
+				               
+				               pare
+				               
+				               caso 'n':
+				               caso 'N':
+				               escreva("Seu transporte é uma Lancha!")
+				                
+				            }pare
+				        }pare
+				        
+				    }pare
+				    
+				}pare
+			}
+		}
+	}
+}
