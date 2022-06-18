@@ -1,5 +1,8 @@
 programa {
-	funcao inicio() {
+
+//Juliana B.
+
+	funcao vestibular() {
 		inteiro notaA[26], maiorA, menorA, notaB[26], maiorB, menorB, notaC[26], maiorC, menorC, notaD[26], maiorD, menorD, maiorTotal, menorTotal
 		cadeia nomeA[26], nomeB[26], nomeC[26], nomeD[26]
 		
@@ -20,7 +23,7 @@ programa {
 		    }
 		    
 		}
-		//atribui um valor a variável maior para servir de base para comparar com as próximas notas que o vetor receber
+		//atribui um valor a variável maior para servir de base 
 		maiorA = notaA[0]
 		menorA = notaA[0]
 		para(inteiro contador=1; contador<=25; contador++){
@@ -44,8 +47,7 @@ programa {
 		    escreva("Digite a nota: ")
 		    leia(notaB[contador])
 		    
-		    se(notaB[contador]>=7){
-		        //assim que a nota é informada o comando verifica se o aluno foi aprovado ou não
+		    se(notaB[contador]>=7){		        
 		        escreva("APROVADO\n")
 		    }senao{
 		        escreva("REPROVADO\n")
@@ -57,8 +59,7 @@ programa {
 		menorB = notaB[0]
 		para(inteiro contador=1; contador<=25; contador++){
 		    se(maiorB < notaB[contador]){
-		        maiorB = notaB[contador]
-		  
+		        maiorB = notaB[contador]		  
 		    }
 		    se(menorB > notaB[contador]){
 		        menorB = notaB[contador]
@@ -76,8 +77,7 @@ programa {
 		    escreva("Digite a nota: ")
 		    leia(notaC[contador])
 		    
-		    se(notaC[contador]>=7){
-		        //assim que a nota é informada o comando verifica se o aluno foi aprovado ou não
+		    se(notaC[contador]>=7){		        
 		        escreva("APROVADO\n")
 		    }senao{
 		        escreva("REPROVADO\n")
@@ -97,7 +97,7 @@ programa {
 		    }
 		}
 		
-		limpa()
+		limpa() //Juliana B.
 		escreva("### TURMA D ###\n")
 		
 		para(inteiro contador=1; contador<=25; contador++){
@@ -108,7 +108,6 @@ programa {
 		    leia(notaD[contador])
 		    
 		    se(notaD[contador]>=7){
-		        //assim que a nota é informada o comando verifica se o aluno foi aprovado ou não
 		        escreva("APROVADO\n")
 		    }senao{
 		        escreva("REPROVADO\n")
@@ -130,7 +129,8 @@ programa {
 		
 		limpa()
 		
-		
+		//imprimi as maiores notas de cada turma
+                //comando 'se' vai verificar se essa foi a maior nota de todas as turmas
 		escreva("###  MAIOR NOTA  ###\n")
 		escreva("TURMA A\t", maiorA,"\n")
 		se(maiorA>maiorB e maiorA>maiorC e maiorA>maiorD){
