@@ -20,11 +20,11 @@ int main ()
 		printf("%4d \t",lista[i]);
 	}
 	//bubblesort
-	//utilizando 'contador' para percorrer o array/vetor quantas vezes forem necessarias
+	//utilizando 'contador' para percorrer o array/vetor quantas vezes forem necessárias
 	for(contador=1; contador<tamanho; contador++){
 		//utilizando outro 'for' e 'i' para percorrer o array/vetor
 		for(i=0; i<tamanho; i++){
-			// 'if' para comparar os pares. 'i + 1' passa p/ próximo vetor
+			// 'if' para comparar os pares. 'i + 1' passa p/ o próximo
 			if(lista[i] > lista [i +1]){
 				//copia 'i' na var 'copia' p/ ordenar
 				copia = lista[i];
