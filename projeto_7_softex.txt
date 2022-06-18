@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#define tamanho 10
+
+int main ()
+{
+	setlocale(LC_ALL,"");
+	
+	int lista [tamanho];
+	int i, copia, contador;
+	//lê os valores digitados
+	for(i=0; i<tamanho; i++){
+		printf("Digite um número: \n");
+		scanf("%d",&lista[i]);
+	}
+	//imprime a atual ordem para servir de comparação
+	printf("Atual ordem é: \n");
+	for(i=0; i<tamanho; i++){
+		printf("%4d \t",lista[i]);
+	}
+	//bubblesort
+	//utilizando 'contador' para percorrer o array/vetor quantas vezes forem necessarias
+	for(contador=1; contador<tamanho; contador++){
+		//utilizando outro 'for' e 'i' para percorrer o array/vetor
+		for(i=0; i<tamanho; i++){
+			// 'if' para comparar os pares. 'i + 1' passa p/ próximo vetor
+			if(lista[i] > lista [i +1]){
+				//copia 'i' na var 'copia' p/ ordenar
+				copia = lista[i];
+				lista[i] = lista [i+1];
+				lista[i+1] = copia;
+			}
+		}
+	}
+	
+	printf("\n");
+	printf("Lista em ordem \n");
+	
+	for(i=0; i<tamanho; i++){
+		printf("%4d \t",lista[i]);
+	}
+	printf("\n");
+	return 0;
+}
