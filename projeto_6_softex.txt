@@ -1,0 +1,153 @@
+programa {
+	funcao inicio() {
+		inteiro notaA[26], maiorA, menorA, notaB[26], maiorB, menorB, notaC[26], maiorC, menorC, notaD[26], maiorD, menorD, maiorTotal, menorTotal
+		cadeia nomeA[26], nomeB[26], nomeC[26], nomeD[26]
+		
+		escreva("### TURMA A ###\n")
+		
+		para(inteiro contador=1; contador<=25; contador++){
+	
+		    escreva("Digite o nome do/a ",contador,"º aluno/a: \n") 
+		    leia(nomeA[contador])
+		    escreva("Digite a nota: ")
+		    leia(notaA[contador])
+		    
+		    se(notaA[contador]>=7){
+		        //assim que a nota é informada o comando verifica se o aluno foi aprovado ou não
+		        escreva("APROVADO\n")
+		    }senao{
+		        escreva("REPROVADO\n")
+		    }
+		    
+		}
+		//atribui um valor a variável maior para servir de base para comparar com as próximas notas que o vetor receber
+		maiorA = notaA[0]
+		menorA = notaA[0]
+		para(inteiro contador=1; contador<=25; contador++){
+		    se(maiorA < notaA[contador]){
+		        maiorA = notaA[contador]
+		  //esse comando vai verificar qual a maior nota que o vetor recebeu
+		    }
+		    se(menorA > notaA[contador]){
+		        menorA = notaA[contador]
+		    }
+		}
+		//apaga o que está escrito no terminal
+		limpa()
+		
+		escreva("### TURMA B ###\n")
+		
+		para(inteiro contador=1; contador<=25; contador++){
+	
+		    escreva("Digite o nome do/a ",contador,"º aluno/a: \n") 
+		    leia(nomeB[contador])
+		    escreva("Digite a nota: ")
+		    leia(notaB[contador])
+		    
+		    se(notaB[contador]>=7){
+		        //assim que a nota é informada o comando verifica se o aluno foi aprovado ou não
+		        escreva("APROVADO\n")
+		    }senao{
+		        escreva("REPROVADO\n")
+		    }
+		    
+		}
+		
+		maiorB = notaB[0]
+		menorB = notaB[0]
+		para(inteiro contador=1; contador<=25; contador++){
+		    se(maiorB < notaB[contador]){
+		        maiorB = notaB[contador]
+		  
+		    }
+		    se(menorB > notaB[contador]){
+		        menorB = notaB[contador]
+		    }
+		}
+		
+		limpa()
+		
+		escreva("### TURMA C ###\n")
+		
+		para(inteiro contador=1; contador<=25; contador++){
+	
+		    escreva("Digite o nome do/a ",contador,"º aluno/a: \n") 
+		    leia(nomeC[contador])
+		    escreva("Digite a nota: ")
+		    leia(notaC[contador])
+		    
+		    se(notaC[contador]>=7){
+		        //assim que a nota é informada o comando verifica se o aluno foi aprovado ou não
+		        escreva("APROVADO\n")
+		    }senao{
+		        escreva("REPROVADO\n")
+		    }
+		    
+		}
+		
+		maiorC = notaC[0]
+		menorC = notaC[0]
+		para(inteiro contador=1; contador<=25; contador++){
+		    se(maiorC < notaC[contador]){
+		        maiorC = notaC[contador]
+		  
+		    }
+		    se(menorC > notaC[contador]){
+		        menorC = notaC[contador]
+		    }
+		}
+		
+		limpa()
+		escreva("### TURMA D ###\n")
+		
+		para(inteiro contador=1; contador<=25; contador++){
+	
+		    escreva("Digite o nome do/a ",contador,"º aluno/a: \n") 
+		    leia(nomeD[contador])
+		    escreva("Digite a nota: ")
+		    leia(notaD[contador])
+		    
+		    se(notaD[contador]>=7){
+		        //assim que a nota é informada o comando verifica se o aluno foi aprovado ou não
+		        escreva("APROVADO\n")
+		    }senao{
+		        escreva("REPROVADO\n")
+		    }
+		    
+		}
+		
+		maiorD = notaD[0]
+		menorD = notaD[0]
+		para(inteiro contador=1; contador<=25; contador++){
+		    se(maiorD < notaD[contador]){
+		        maiorD = notaD[contador]
+		  
+		    }
+		    se(menorD > notaD[contador]){
+		        menorD = notaD[contador]
+		    }
+		}
+		
+		limpa()
+		
+		
+		escreva("###  MAIOR NOTA  ###\n")
+		escreva("TURMA A\t", maiorA,"\n")
+		se(maiorA>maiorB e maiorA>maiorC e maiorA>maiorD){
+		    escreva("A maior nota de todas as turmas foi: ", maiorA," da turma A\n")
+		}
+		escreva("TURMA B\t", maiorB,"\n")
+		se(maiorB>maiorA e maiorB>maiorC e maiorB>maiorD){
+		        escreva("A maior nota de todas as turmas foi: ", maiorB," da turma B\n")
+		    }
+		escreva("TURMA C\t", maiorC,"\n")
+		se(maiorC>maiorA e maiorC>maiorD e maiorC>maiorB){
+		        escreva("A maior nota de todas as turmas foi: ", maiorC," da turma C\n")
+		        }
+		escreva("TURMA D\t", maiorD,"\n")
+		se(maiorD>maiorA e maiorD>maiorB e maiorD>maiorC){
+		            escreva("A maior nota de todas as turmas foi: ", maiorD," da turma D\n")
+		
+		}
+	}
+}
