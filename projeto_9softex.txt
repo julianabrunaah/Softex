@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	
+	int i, vet [22];
+	//declarando o ponteiro
+	int *p;
+	//ponteiro recebe o conteúdo do vetor
+	p = &vet[i];
+	//alocando inicialmente 22 elementos
+	p = (int*)malloc(22 * sizeof(int));
+	//recebe um valor para cada posição
+	for(i=0; i<22; i++){
+		printf("\n Digite um numéro: ");
+		scanf("%d",&vet[i]);
+	}
+	printf("\n vetor: ");
+	//realloc 
+	p  = (int*)realloc(p, 30*sizeof(int));
+	//imprime 30 posições e preenche as 8 restantes com lixo de memória
+	printf("\n vetor: ");
+	for (i=0; i<30; i++){
+		printf("%d\t", vet[i]);
+	}
+	//libera o epaço
+	free(p);
+
+ return 0;
+}
