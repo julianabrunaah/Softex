@@ -1,0 +1,71 @@
+#Tipo Abstrato de Dado 'numero complexo'
+
+class NumeroComplexo:
+    #criamos um construtor usando init
+    #usamos self para que os atributos sejam acessíveis
+
+    def __init__(self, primeiroComplex, segundoComplex, terceiroComplex):
+        self.primeiroComplex = primeiroComplex
+        self.segundoComplex = segundoComplex
+        self.terceiroComplex = terceiroComplex
+
+print('Escreva o valor para calcular os números complexos: ')
+numreal1 = int(input('\n Escreva a parte real do primeiro: '))
+numImag1 = int(input('\n Escreva a parte imaginaria do primeiro: '))
+#calcula o numero complexo com os dados fornecidos
+primeiroComplex = complex(numreal1, numImag1)
+
+numreal2 = int(input('\n Escreva a parte real do segundo: '))
+numImag2 = int(input('\n Escreva a parte imaginaria do segundo: '))
+#calcula o numero complexo com os dados fornecidos
+segundoComplex = complex(numreal2, numImag2)
+
+numreal3 = int(input('\n Escreva a parte real do terceiro: '))
+numImag3 = int(input('\n Escreva a parte imaginaria do terceiro: '))
+#calcula o numero complexo com os dados fornecidos
+terceiroComplex = complex(numreal3, numImag3)
+
+#impressao propriedade imag e real
+print('\n Impressão propriedades ')
+print('Propriedade Real 1º número complexo: ',primeiroComplex.real)
+print('Propriedade Imaginaria 1º número complexo: ',primeiroComplex.imag)
+
+print('Propriedade Real 2º número complexo: ',segundoComplex.real)
+print('Propriedade Imaginaria 2º número complexo: ',segundoComplex.imag)
+
+print('Propriedade Real 3º número complexo: ',terceiroComplex.real)
+print('Propriedade Imaginaria 3º número complexo: ',terceiroComplex.imag)
+
+#Operações
+print('\n Operações com números complexos')
+print('Soma: ')
+a = primeiroComplex + segundoComplex
+print('A soma do primeiro número complexo mais o segundo é',a)
+b = primeiroComplex + terceiroComplex
+print('A soma do primeiro número complexo mais o terceiro é',b)
+c = terceiroComplex + segundoComplex
+print('A soma do segundo número complexo mais o terceiro é',c)
+
+print('\n Subtração: ')
+d = primeiroComplex - segundoComplex
+print('A subtração do primeiro número complexo mais o segundo é',d)
+e = primeiroComplex - terceiroComplex
+print('A subtração do primeiro número complexo mais o terceiro é',e)
+f = terceiroComplex - segundoComplex
+print('A subtração  do segundo número complexo mais o terceiro é',f)
+
+print('\n Multiplicação: ')
+j = primeiroComplex * segundoComplex
+print('A multiplicação do primeiro número complexo mais o segundo é',j)
+k = primeiroComplex * terceiroComplex
+print('A multiplicação do primeiro número complexo mais o terceiro é',k)
+l = terceiroComplex * segundoComplex
+print('A multiplicação do segundo número complexo mais o terceiro é',l)
+
+print('\n Divisão: ')
+m = primeiroComplex / segundoComplex
+print('A divisão do primeiro número complexo mais o segundo é',m)
+n = primeiroComplex / terceiroComplex
+print('A divisão do primeiro número complexo mais o terceiro é',n)
+o = terceiroComplex / segundoComplex
+print('A divisão do segundo número complexo mais o terceiro é',o)
