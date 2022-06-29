@@ -1,0 +1,15 @@
+Estude sobre os grafos e apresente dois exemplos de como são utilizados no contexto tecnológico.
+
+Realize essa no WORD no Bloco de Notas, suba esse arquivo para outro lado e compartilhar o link no campo ao lado da análise. 
+
+Dentro da minha pesquisa selecionei dois exemplos de como os grafos são utilizados em Banco de dados de grafos. 
+Em um breve explicação, o banco de dados de grafos pode criar e manipular grafos que representem relacionamento nos dados de uma forma que o banco de dados relacional não pode. 
+Os algoritmos de grafos podem analisar comportamentos entre dados em grafo, identificando padrões comuns ou anomalias, por exemplo. É uma ferramenta flexível e poderosa.
+
+REDES SOCIAIS: Existe uma infidade de dados em mídias sociais, não só pelo fato da quantidade de usuários, mas também a quantidade de dados que cada um desses usuários fornece. Imagine ter identificar contas falsas e bot, em meio a tantas outras.
+Com uma análise de grafos dentro desse banco de dados é possível determinar, quais são os usuários inativos, quais os ativos, a densidade de conexões e etc. No caso, é possível usar o grafo para identificar alguns padrões. Por exemplo, análisar e identificar um padrão de usuário real e um bot.
+Falitando a exclusão de contas controladas por bot, evitando a propagação de noticias falsas, links maliciosos e etc.
+
+FRAUDE DE CARTÃO DE CRÉDITO: Dentro da tecnologia antifraude a identificação de padrão de é a primeira linha de defesa. A análise de grafos pode complementar essa identificação de um padrão feito com machine learning para sinalizar possíveis fraudes.
+
+
