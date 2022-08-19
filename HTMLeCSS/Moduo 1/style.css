@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    
+}
+.intro1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 50%;
+}
+.txt{
+    color: rgb(10, 10, 10);
+    font-family: Verdana;
+    font-size: 5ch;
+    text-shadow: 
+    -1px -1px 0px rgb(255, 239, 12), 
+    -1px 1px 0px rgb(255, 239, 12),                    
+     1px -1px 0px rgb(255, 239, 12),                  
+     1px 0px 0px rgb(255, 239, 12);
+}
+.txt2{
+    color: aliceblue;
+    font-size: medium;
+    text-shadow: none;
+    text-align: justify;
+    right: 50%;
+
+}
+.txt3{
+    color: aliceblue;
+    font-size: medium;
+    text-shadow: none;
+}
+.intro2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.link1 ul li {
+    max-height: max-content;
+    color: rgb(255, 250, 250);
+    left: 10%;
+    display: inline-block;
+    text-align: right;
+    
+}
