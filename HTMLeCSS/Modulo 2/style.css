@@ -1,0 +1,36 @@
+body{
+    background-color: #000000;
+    color: beige;
+    height: 100%;
+    margin: 0;
+}
+.menu ul li{
+    background-color: #fbf8ec;
+    color: rgb(0, 0, 0);   
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Courier New';
+    align-items: center;
+}
+.imgs{
+    margin: 2%;
+}
+p{
+    font-family: 'Courier New';
+    font-size: large;
+    text-align: center;
+}
+footer{
+    text-decoration: floralwhite;
+}
+.rodape ul li{ 
+    display: table;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: 'Courier New';
+    align-items: center;
+}
