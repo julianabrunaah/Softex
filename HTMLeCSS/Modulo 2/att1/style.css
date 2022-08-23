@@ -2,7 +2,35 @@ body{
     background-color: #000000;
     color: beige;
     height: 100%;
-    margin: 0;
+    margin: 0; padding: 0;
+}
+.carrosel{
+    width: 1200px;
+    outline: 3px solid black;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0,0.7);
+    overflow: hidden;
+    margin: 50px auto;
+}
+.carrosel ul{
+    display: flex;
+    list-style: none;
+    width: 7200px;
+}
+.carrosel li{
+    position: relative;
+    animation: slide 30s infinite ease-out;
+}
+
+@keyframes slide{
+    20%{left: 0px;}
+
+    40%{left:  -1200px;}
+
+    60%{left: -2400px;}
+
+    80%{left: -3600px;}
+
+    100%{left: -4800px;}
 }
 .menu ul li{
     background-color: #fbf8ec;
@@ -33,4 +61,5 @@ footer{
     font-size: 15px;
     font-family: 'Courier New';
     align-items: center;
+    list-style: none;
 }
