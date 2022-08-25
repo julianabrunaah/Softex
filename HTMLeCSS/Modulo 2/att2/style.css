@@ -1,0 +1,48 @@
+body{
+    background-color: hwb(0 100% 0%);
+    color: rgb(0, 0, 0);
+    margin: 0; padding: 0;
+}
+header{
+    margin: 0 auto;
+    max-width: 60%;
+}
+img{
+    border-radius: 10%;
+}
+p{
+    text-align: justify;
+}
+
+.img1{
+    border-radius: 50%;
+    width: 40%;
+}
+.img2{
+    margin-top: 5%;
+    border-radius: 10%;
+    width: 50%;
+    float: right;
+}
+.img3{
+    margin-left: 10%;
+    border-radius: 50%;
+    width: 20%;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    font-family:'Trebuchet MS';
+    font-size: larger;
+}
+
+.txt1{
+    float: right;
+    max-width: 55%;    
+}
+.imgbloco{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+
