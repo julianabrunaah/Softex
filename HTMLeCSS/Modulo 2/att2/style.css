@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 body{
     background-color: hwb(0 100% 0%);
     color: rgb(0, 0, 0);
     margin: 0; padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     margin: 0 auto;
@@ -29,7 +31,6 @@ p{
 .container{
     max-width: 90%;
     margin: 0 auto;
-    font-family:'Trebuchet MS';
     font-size: larger;
 }
 .txt{
@@ -45,5 +46,84 @@ p{
     margin-top: 5%;
     margin-left: 10%;
 }
+footer{
+    background-color: rgb(212, 212, 212);
+    padding: 50px;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: rgb(7, 7, 7);
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #473737;
+    padding-left: 10px;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+.footer-col .form-sub input::placeholder{
+    color: rgb(3, 3, 3);
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
