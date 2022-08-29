@@ -39,31 +39,23 @@
     margin-right: 55%;
 }
 .c1{
-    background: url(../imagens/slide1.png);
+    background: url(./imagens/slide1.png);
     background-size:cover;
     width: 100vw;
     height: 115vh;
 }
 .c2{
-    background: url(../imagens/slide2.png);
+    background: url(./imagens/slide2.png);
     background-size:cover;
     width: 100vw;
     height: 115vh;
 }
 .c3{
-    background: url(../imagens/slide3.png);
+    background: url(./imagens/slide3.png);
     background-size:cover;
     width: 100vw;
     height: 115vh;
 }
-.c4{
-    background: url(../imagens/slide4.png);
-    background-size:cover;
-    width: 100vw;
-    height: 115vh;
-}
-
-
 
 footer{
     background-color: rgb(235, 233, 233);
