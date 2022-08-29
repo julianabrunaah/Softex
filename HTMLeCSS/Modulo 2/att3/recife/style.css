@@ -38,7 +38,9 @@
     padding-bottom: 90px;
     margin-right: 40%;
 }
-
+.container .slide-container .slide :hover{
+    background-color: #cfcfcf7f;
+}
 .container .slide-container{
     min-height: 100vh;
     display: flex;
