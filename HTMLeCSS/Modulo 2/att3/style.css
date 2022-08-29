@@ -38,6 +38,9 @@
     padding-bottom: 70px;
     margin-right: 55%;
 }
+.container .slide-container .slide :hover{
+    background-color: #cfcfcf7f;
+}
 .c1{
     background: url(./imagens/slide1.png);
     background-size:cover;
