@@ -146,7 +146,9 @@ footer{
 .footer-col .form-sub button:hover{
     background-color: #7e7e7e;
 }
-@media (max-width:1000px) {
+
+
+@media (max-width:1050px) {
     nav ul{
         position: fixed;
         top: 100px;
@@ -171,21 +173,28 @@ footer{
     nav .menu-btn i{
         display: block;
     }
+    .container{
+        flex-direction: column;
+        align-content: space-around;
+        gap: 1vh;
+    }
     .container .element-left{
         width: 100vw;
-        height: 50vh;
         order: 0;
         flex-grow: 0;
     }
     .container  .element-right{
-        height: 50vh;
         width: 100vw;
         order: 0;
         flex-grow: 0;
     }
+    .container  .element-right img{
+        max-height: 70vh;
+        margin: auto;
+    }
     .container .element-left .element-txt{
         position: static;
-        width: 90vw;
+        min-width: 90vw;
         margin: 5%;
         font-size: 16px;   
     }
