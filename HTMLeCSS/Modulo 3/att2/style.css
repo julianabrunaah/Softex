@@ -176,7 +176,7 @@ footer{
     .container{
         flex-direction: column;
         align-content: space-around;
-        gap: 1vh;
+        gap: 10px;
     }
     .container .element-left{
         width: 100vw;
@@ -189,12 +189,12 @@ footer{
         flex-grow: 0;
     }
     .container  .element-right img{
-        max-height: 70vh;
-        margin: auto;
+        /*max-height: 80vh;*/
+        margin: 5%;
     }
     .container .element-left .element-txt{
         position: static;
-        min-width: 90vw;
+        min-width: 80vw;
         margin: 5%;
         font-size: 16px;   
     }
