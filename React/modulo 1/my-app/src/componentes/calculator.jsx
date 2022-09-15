@@ -30,6 +30,14 @@ export default function Calculator() {
         setNum(0);
     }
 
+    function changeSign() {
+        if (num > 0) {
+          setNum(-num);
+        } else {
+          setNum(Math.abs(num));
+        }
+    }
+
     function calculate() {
 
         if (operator === '/') {
@@ -64,7 +72,7 @@ export default function Calculator() {
         <button onClick={inputNum} value={2}>2</button>
         <button onClick={inputNum} value={3}>3</button>
         <button onClick={operatorHandler} value='-'>-</button>
-        <button>+/-</button>
+        <button onClick={changeSign}>+/-</button>
         <button onClick={inputNum} value={0}>0</button>
         <button onClick={operatorHandler} value='*'>*</button>
         <button onClick={operatorHandler} value='/'>/</button>
