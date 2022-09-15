@@ -2,7 +2,7 @@
     background-color: black;
     box-sizing: border-box;
 }
-  .container{
+.container{
     background-color: rgb(176, 17, 216);
     display: flex;
     flex-wrap: wrap;
@@ -34,4 +34,19 @@ button:hover{
     justify-content: flex-end;
     margin: 1em;
     font-size: 4em;
+}
+
+@media (max-width:1500px) {
+    .container{
+        max-width: 60vw;
+    }
+    button{
+        width: 15vw;
+    }
+    .result{
+        flex-basis: 55vw;
+    }
+    .btn{
+        min-width: 45vw;
+    }
 }
