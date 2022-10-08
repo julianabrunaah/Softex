@@ -1,0 +1,37 @@
+*{
+  background-color: rgb(242, 235, 245);
+  margin: 0; padding: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+.App {
+  text-align: center;  
+}
+.App header{
+  min-width: 100vw;
+
+}
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:  3vw;
+  padding-top: 30px;
+}
+.container-rigth{
+  display: inline;
+  max-width: 30vw;
+}
+.container-left{
+  display: inline;
+  max-width: 30vw;
+}
+.container-center{
+  display: inline;
+  max-width: 30vw;
+}
+.foto{
+  max-height: 50vh;
+  margin-top: 30vh;
+}
+
