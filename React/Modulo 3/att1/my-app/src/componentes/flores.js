@@ -5,11 +5,11 @@ function ContainerLeft (){
     return(
         <>
         <div>
-            <img src={flower} className="img"/>
+            <img src={flower} className="img" alt="floriza"/>
         </div>
-        <div>
-            <img src={flower} className="img2"/>
-            <img src={flower} className="img3"/>
+        <div className="Container-flor">
+            <img src={flower} className="img2" alt="floriza"/>
+            <img src={flower} className="img3" alt="floriza"/>
         </div>
     </>
     )

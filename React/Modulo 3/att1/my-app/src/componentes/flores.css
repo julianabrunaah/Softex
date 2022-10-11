@@ -1,5 +1,6 @@
+
 .img{
-    max-width: 25vw;
+    max-width: 15vh;
 }
 @media (prefers-reduced-motion: no-preference) {
     .img {
@@ -15,7 +16,7 @@
     }
 }
 .img2{
-    max-width: 15vw;
+    max-width: 10vw;
     padding: auto 30vw;
 
 }
@@ -33,7 +34,7 @@
     }
 }
 .img3{
-    max-width: 8vw;
+    max-width: 5vw;
     float: left;
 
 }
@@ -49,4 +50,11 @@
     to {
       transform: rotate(360deg);
     }
+}
+
+@media (max-width:1055px) {
+  .Container-flor{
+    display: none;
+  }
+  
 }

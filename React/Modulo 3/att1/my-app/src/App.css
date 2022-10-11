@@ -3,6 +3,7 @@
   margin: 0; padding: 0;
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 .App {
   text-align: center;  
@@ -15,7 +16,6 @@ section{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin:  3vw;
   padding-top: 30px;
 }
 .container-rigth{
@@ -33,5 +33,33 @@ section{
 .foto{
   max-height: 50vh;
   margin-top: 30vh;
+}
+
+@media (max-width:1050px) {
+  section{
+    flex-direction:column-reverse;
+  }
+  .container-rigth{
+    display:  inline-block;
+    max-height: 30vh;
+    min-width: 100vw;
+    margin-top: 2rem;
+  }
+  .container-left{
+    display: inline-block;
+    max-height: 25vh;
+    min-width: 60vw;
+    align-self: center;
+  }
+  .container-center{
+    display: inline-block;
+    min-height: 30vh;
+    min-width: 60vw;
+    align-self: center;
+  }
+  .foto{
+    max-height: 25vh;
+    margin-top: 1rem;
+  }
 }
 
