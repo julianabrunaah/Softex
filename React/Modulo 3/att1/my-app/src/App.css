@@ -15,24 +15,24 @@
 section{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 30px;
 }
 .container-rigth{
-  display: inline;
-  max-width: 30vw;
+  display: inline-block;
+  max-width: 33vw;
 }
 .container-left{
-  display: inline;
-  max-width: 30vw;
+  display: inline-block;
+  max-width: 33vw;
 }
 .container-center{
-  display: inline;
-  max-width: 30vw;
+  display: inline-block;
+  max-width: 33vw;
 }
 .foto{
-  max-height: 50vh;
-  margin-top: 30vh;
+  max-height: 35vh;
+  margin-top: 50vh;
 }
 
 @media (max-width:1050px) {
@@ -40,19 +40,16 @@ section{
     flex-direction:column-reverse;
   }
   .container-rigth{
-    display:  inline-block;
     max-height: 30vh;
     min-width: 100vw;
     margin-top: 2rem;
   }
   .container-left{
-    display: inline-block;
     max-height: 25vh;
     min-width: 60vw;
     align-self: center;
   }
   .container-center{
-    display: inline-block;
     min-height: 30vh;
     min-width: 60vw;
     align-self: center;

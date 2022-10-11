@@ -1,6 +1,6 @@
 
 .img{
-    max-width: 15vh;
+    max-width: 20vh;
 }
 @media (prefers-reduced-motion: no-preference) {
     .img {
@@ -16,7 +16,7 @@
     }
 }
 .img2{
-    max-width: 10vw;
+    max-width: 15vw;
     padding: auto 30vw;
 
 }
@@ -34,7 +34,7 @@
     }
 }
 .img3{
-    max-width: 5vw;
+    max-width: 8vw;
     float: left;
 
 }

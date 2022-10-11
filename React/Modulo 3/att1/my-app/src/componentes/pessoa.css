@@ -1,9 +1,13 @@
 .pessoa{
     padding-top: 25vh;
 }
+p{
+    margin-top: 2rem;
+}
 @media (max-width:1050px){
     .pessoa{
         padding-top: 3vh;
         font-size: 2vh;
     }
+
 }
