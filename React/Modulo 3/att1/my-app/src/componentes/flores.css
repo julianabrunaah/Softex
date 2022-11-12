@@ -53,6 +53,10 @@
 }
 
 @media (max-width:1055px) {
+  .img{
+    max-height: 10vh;
+    align-self: center;
+  }
   .Container-flor{
     display: none;
   }

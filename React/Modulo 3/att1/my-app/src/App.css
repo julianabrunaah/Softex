@@ -41,11 +41,9 @@ section{
   }
   .container-rigth{
     max-height: 30vh;
-    min-width: 100vw;
-    margin-top: 2rem;
   }
   .container-left{
-    max-height: 25vh;
+    max-height: 15vh;
     min-width: 60vw;
     align-self: center;
   }
