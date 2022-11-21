@@ -15,7 +15,7 @@ function Footer (){
                 </div>
                 <div class="footer-col">
                     <ul>
-                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./">Home</a></li>
                         <li><a href="../restautamtes/index.html">Restaurantes</a></li>
                         <li><a href="https://visit.recife.br/onde-ficar/hoteis/" >Hoteis</a></li>
                         <li><a href="../recife/index.html">Recife Antigo</a></li>

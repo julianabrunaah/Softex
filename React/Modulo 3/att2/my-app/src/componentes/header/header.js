@@ -20,7 +20,7 @@ function Header(){
             
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./restaurantes/index.html">Sobre</a></li>
+                <li><a href="./">Sobre</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>

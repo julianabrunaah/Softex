@@ -9,3 +9,17 @@ html{
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.wrapper{
+    margin: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+@media (min-width:1000px) {
+    .wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(45vw,50vh));
+    }
+}
