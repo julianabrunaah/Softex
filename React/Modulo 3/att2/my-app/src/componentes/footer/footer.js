@@ -5,7 +5,7 @@ function Footer (){
         <div class="container-footer">
             <div class="row-footer">
                 <div class="footer-col">
-                    <h4>Marco Zero</h4>
+                    <h4>Studio</h4>
                     <ul>
                         <li><a href="#">Sobre</a></li>
                         <li><a href="#">Dúvidas frequentes</a></li>

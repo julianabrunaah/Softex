@@ -46,6 +46,7 @@
         flex-direction:column;
         text-align:center;
         min-width: 45vw;
+        min-height: 100vh;
     }
     .card .card__img{
         width: 45vw;
