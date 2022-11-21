@@ -7,19 +7,19 @@ function Footer (){
                 <div class="footer-col">
                     <h4>Marco Zero</h4>
                     <ul>
-                        <li><a href="https://visit.recife.br/eventos/">Prefeitura do Recife</a></li>
-                        <li><a href="https://www.caixacultural.com.br/Paginas/Recife.aspx">Caixa Cultural</a></li>
-                        <li><a href="https://www.instagram.com/caisdosertao/">Museu Cais do Sertão</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Dúvidas frequentes</a></li>
+                        <li><a href="#">Equipe</a></li>
                         <li><a href="https://goo.gl/maps/2s6vMwhyEPDjucbe7">Localização</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <ul>
-                        <li><a href="./">Home</a></li>
-                        <li><a href="../restautamtes/index.html">Restaurantes</a></li>
-                        <li><a href="https://visit.recife.br/onde-ficar/hoteis/" >Hoteis</a></li>
-                        <li><a href="../recife/index.html">Recife Antigo</a></li>
-                        <li><a href="https://visit.recife.br/agenda-recife/">Programação</a></li>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#cilios">Extensão de Cílios</a></li>
+                        <li><a href="#henna" >Design com Henna</a></li>
+                        <li><a href="#laser">Depilação a Laser</a></li>
+                        <li><a href="#micro">Micropigmentação</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
