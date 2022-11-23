@@ -1,5 +1,5 @@
 .container-footer{
-    max-width: 100vw;
+    min-width: 100vw;
     padding: 0 4%;
     margin: auto;
     background-color: rgb(233, 193, 253);
@@ -49,7 +49,9 @@
     border: 1px solid white;
     color: rgb(0, 0, 0);
     background-color: #ffffff;
+    margin-top: 5px;
 }
+
 .footer-col .form-sub input::placeholder{
     color: rgb(3, 3, 3);
 }

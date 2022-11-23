@@ -1,11 +1,19 @@
+import { useState } from 'react'
 import './footer.css'
+
 function Footer (){
+    function cadastrarContato(e){
+        e.preventDefault()
+        console.log('Contato cadastrado!')
+    }
+    const [name, setName] = useState()
+    const [email, setEmail] = useState()
     return(
       <div>
         <div class="container-footer">
             <div class="row-footer">
                 <div class="footer-col">
-                    <h4>Marco Zero</h4>
+                    <h4>Studio</h4>
                     <ul>
                         <li><a href="#">Sobre</a></li>
                         <li><a href="#">Dúvidas frequentes</a></li>
@@ -25,8 +33,9 @@ function Footer (){
                 <div class="footer-col">
                     <h4>Contato</h4>
                     <div id="contato" class="form-sub">
-                        <form action="">
-                            <input type="text" placeholder="Digite seu Email" required/>
+                        <form onSubmit={cadastrarContato}>
+                            <input id="name" name="name" placeholder="Digite seu nome" onChange={(e) => setName(e.target.value)}/>
+                            <input classNaame="email" id="email" name="email" placeholder="Digite seu Email" onChange={(e) => setEmail(e.target.value)}/>
                             <button>Enviar</button>
                         </form>
                     </div>
