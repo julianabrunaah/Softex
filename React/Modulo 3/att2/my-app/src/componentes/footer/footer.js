@@ -5,6 +5,7 @@ function Footer (){
     function cadastrarContato(e){
         e.preventDefault()
         console.log('Contato cadastrado!')
+        alert(' Email cadastrado com sucesso! Em breve entraremos em contato')
     }
     const [name, setName] = useState()
     const [email, setEmail] = useState()
