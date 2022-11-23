@@ -20,6 +20,6 @@ html{
 
 @media (min-width:1000px) {
     .wrapper{
-        grid-template-columns: repeat(auto-fit, minmax(45vw,50vh));
+        grid-template-columns: repeat(auto-fit, minmax(45vw,45vh));
     }
 }
