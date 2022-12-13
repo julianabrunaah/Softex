@@ -1,6 +1,7 @@
 import './header.css'
 import img from './imagens/flower.png'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import App from '../../App'
 
 function Header(){
 
@@ -24,8 +25,10 @@ function Header(){
         </nav>
         <Switch>
             <Route exact path='/'>
+                <App/>
             </Route>
             <Route path='/sobre'>
+                <Sobre/>
             </Route>
         </Switch>
         </Router>
