@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    margin: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+@media (min-width:1000px) {
+    .wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(45vw,45vh));
+    }
+}
