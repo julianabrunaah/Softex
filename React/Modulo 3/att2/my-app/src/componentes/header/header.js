@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import './header.css'
 import img from './imagens/flower.png'
 //import menuShow from './main'
@@ -13,8 +14,8 @@ function Header(){
             </div>
             
             <ul>
-                <li><a href="#header">Home</a></li>
-                <li><a href="#">Sobre</a></li>
+                <Link to="/">Home</Link>
+                <Link to="sobre">Sobre</Link>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
