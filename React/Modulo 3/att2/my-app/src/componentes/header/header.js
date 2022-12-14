@@ -14,8 +14,8 @@ function Header(){
             </div>
             
             <ul>
-                <Link to="/">Home</Link>
-                <Link to="sobre">Sobre</Link>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="sobre">Sobre</Link></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
