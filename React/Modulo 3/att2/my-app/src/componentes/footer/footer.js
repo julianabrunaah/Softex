@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from "react-router-dom"
 import './footer.css'
 
 function Footer (){
@@ -16,7 +17,7 @@ function Footer (){
                 <div class="footer-col">
                     <h4>Studio</h4>
                     <ul>
-                        <li><a href="#">Sobre</a></li>
+                        <li><Link to="sobre">Sobre</Link></li>
                         <li><a href="#">Dúvidas frequentes</a></li>
                         <li><a href="#">Equipe</a></li>
                         <li><a href="https://goo.gl/maps/2s6vMwhyEPDjucbe7">Localização</a></li>
@@ -24,11 +25,11 @@ function Footer (){
                 </div>
                 <div class="footer-col">
                     <ul>
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#cilios">Extensão de Cílios</a></li>
-                        <li><a href="#henna" >Design com Henna</a></li>
-                        <li><a href="#laser">Depilação a Laser</a></li>
-                        <li><a href="#micro">Micropigmentação</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><a href="/#cilios">Extensão de Cílios</a></li>
+                        <li><a href="/#henna" >Design com Henna</a></li>
+                        <li><a href="/#laser">Depilação a Laser</a></li>
+                        <li><a href="/#micro">Micropigmentação</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
