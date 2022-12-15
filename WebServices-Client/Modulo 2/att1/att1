@@ -2,7 +2,7 @@
  - O que é WSDL, seu significado e sua função.
 
 WSDL ou Linguagem de Descrição de Web Service se trata de uma metalinguagem que permite descrever os serviços web que utilizará SOAP/RPC como protocolo
-para que o cliente que deseje consumir esse serviço posso compreender e intregalo corretamente para que a comunicação entre sistemas seja possível.
+para que o cliente que deseje consumir esse serviço possa compreender e intregalo corretamente para que a comunicação entre sistemas seja possível.
 
  - Como funcionam os métodos HTTP com exemplos de requisições, sua utilização e em qual momento cada um dos métodos devem ser utilizados. 
 
