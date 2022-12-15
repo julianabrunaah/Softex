@@ -19,3 +19,6 @@ OPTIONS: Obter as propriedades do servidor.
 TRACE: Enviar mensagem do tipo loopback para teste.
 CONNECT: Comunicar com servidores Proxy.
 
+
+exemplo de requisição GET 
+https://github.com/julianabrunaah/Softex/blob/main/WebServices-Client/Modulo%202/att1/get.png
