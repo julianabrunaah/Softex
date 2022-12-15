@@ -10,14 +10,57 @@ O protocolo HTTP define um conjunto de métodos de requisição responsáveis po
 Embora esses métodos possam ser descritos como substantivos, eles também são comumente referenciados como HTTP Verbs (Verbos HTTP). 
 Os verbos vão indicar qual ação está sendo requisitada pelo consumidor do serviço. Alguns exemplos de verbos são GET, PUT, PATCH, POST e DELETE.
 
-GET: Solicita um recurso ou objeto ao servidor
-POST: Envia um arquivo, dados ou formulário HTML no corpo da requisição.
-PUT: Criar ou modificar algum objeto.
+GET: Solicita um recurso ou objeto ao servidor através de um URL e parâmetros. 
+EXEMPLO: http://exemplo/cliente/2
+
+Resposta:
+{
+    “matricula”:2,
+    “nome”:”João de tal”,
+    “atividade”:true
+}
+
+POST: Envia um arquivo, dados ou formulário HTML no corpo da requisição. Posso ser usado para cadastrar um novo cliente e etc.
+EXEMPLO: http://exemplo/cliente
+Requisição:
+{
+    “nome”:”Maria de tal”,
+    “atividade”:true
+} 
+Resposta:
+{
+    “matricula”:7,
+    “nome”:”Maria de tal”,
+    “atividade”:true
+}
+
+PUT: Criar ou modificar algum objeto. Parecido com o método PATCH, enquanto o PATCH é capaz de de modificar apenas parte do recurso o PUT é capaz de modificar todo o resuso.
+EXEMPLO: http://exemplo/cliente/2
+Requisição:
+{
+    “matricula”:2,
+    “nome”:”João de tal e tal”,
+    “atividade”:false      (modificamos o status de atividade de True para False)
+} 
+Resposta:
+{
+    “matricula”:2,
+    “nome”:”João de tal e tal”,
+    “atividade”:false
+}
 PATCH: Atualizar partes de um recurso.
+
 DELETE: Informa um objeto a ser deletado.
+EXEMPLO: http://exemplo/cliente/2
+Requisição: (vazia)
+Resposta: {sucesso: true}
+
 HEAD: Solicita informações sem que o dado seja enviado ao cliente apenas para testar.
+
 OPTIONS: Obter as propriedades do servidor.
+
 TRACE: Enviar mensagem do tipo loopback para teste.
+
 CONNECT: Comunicar com servidores Proxy.
 
 
