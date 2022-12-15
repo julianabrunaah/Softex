@@ -37,4 +37,10 @@ Host: exemplo.com
 
 Hypermedia: Retornar todas as informações necessárias na resposta para que cliente saiba acessar a todos os recursos.
 
-5. Layered System - 
+5. Layered System - já foi estabelecido que existe uma comunicação cliente - servidor que segue um protocolo para requisição e resposta, entretanto 
+é importante que não necessariamente existe um único servidor, pode haver outros servidores intermediários que oferecem camadas de segurança, camadas
+de cache e load-balancing, entre outras funcionalidades. A quantidade dessas camadas não afeta a comunicação, independente disso a requisição e 
+resposta deve seguir o protocolo. 
+
+6. Code-On-Demand (Opcional) - Permite que o cliente receba como resposta parte da lógica do servidor (parte do código) por applet ou scripts, dessa 
+cada cliente pode se comportar de maneira específica usando os mesmo serviços/recursos.
