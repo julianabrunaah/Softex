@@ -14,7 +14,8 @@ GET: Solicita um recurso ou objeto ao servidor
 POST: Envia um arquivo, dados ou formulário HTML.
 PUT: Criar ou modificar algum objeto.
 DELETE: Informa um objeto a ser deletado.
-HEAD: Solicita informações sem que odado seja enviado ao cliente apenas para testar.
+HEAD: Solicita informações sem que o dado seja enviado ao cliente apenas para testar.
 OPTIONS: Obter as propriedades do servidor.
 TRACE: Enviar mensagem do tipo loopback para teste.
 CONNECT: Comunicar com servidores Proxy.
+
