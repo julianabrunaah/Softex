@@ -1,7 +1,7 @@
 
  - O que é WSDL, seu significado e sua função.
 
-WSDL ou Linguagem de Descrição de Web Service se trata de uma metalinguagem que permite descrever os serviços web que utilizará SOAP/RPC como protocolo
+WSDL ou Linguagem de Descrição de Web Service se trata de uma decrição em formato XML sobre serviços web que utilizaram SOAP/RPC como protocolo
 para que o cliente que deseje consumir esse serviço possa compreender e intregalo corretamente para que a comunicação entre sistemas seja possível.
 
  - Como funcionam os métodos HTTP com exemplos de requisições, sua utilização e em qual momento cada um dos métodos devem ser utilizados. 
@@ -11,8 +11,9 @@ Embora esses métodos possam ser descritos como substantivos, eles também são 
 Os verbos vão indicar qual ação está sendo requisitada pelo consumidor do serviço. Alguns exemplos de verbos são GET, PUT, PATCH, POST e DELETE.
 
 GET: Solicita um recurso ou objeto ao servidor
-POST: Envia um arquivo, dados ou formulário HTML.
+POST: Envia um arquivo, dados ou formulário HTML no corpo da requisição.
 PUT: Criar ou modificar algum objeto.
+PATCH: Atualizar partes de um recurso.
 DELETE: Informa um objeto a ser deletado.
 HEAD: Solicita informações sem que o dado seja enviado ao cliente apenas para testar.
 OPTIONS: Obter as propriedades do servidor.
