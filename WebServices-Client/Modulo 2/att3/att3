@@ -1,17 +1,40 @@
  - Explique quais são as seis regras de uma API REST.
 
- Ter uma arquitetura cliente/servidor formada por clientes, servidores e recursos, com solicitações gerenciadas por HTTP.
-Estabelecer uma comunicação stateless entre cliente e servidor. Isso significa que nenhuma informação do cliente é armazenada entre solicitações GET e toda as solicitações são separadas e desconectadas.
-Armazenar dados em cache para otimizar as interações entre cliente e servidor.
+1. Cliente-Server - Retrição básica para a aplicação REST que separa a arquitetura e responsabilidade entre dois ambientes.
+Cliente: Que realiza as requisições para o servidor (requests)
+Servidor: Recebe as requisições, executa e devolve uma resposta.
 
-Ter uma interface uniforme entre os componentes para que as informações sejam transferidas em um formato padronizado. Para tanto, é necessário que:
-os recursos solicitados sejam identificáveis e estejam separados das representações enviadas ao cliente;
-os recursos possam ser manipulados pelo cliente por meio da representação recebida com informações suficientes para tais ações;
-as mensagens autodescritivas retornadas ao cliente contenham informações suficientes para descrever como processá-las;
-hipertexto e hipermídia estão disponíveis. Isso significa que após acessar um recurso, o cliente pode usar hiperlinks para encontrar as demais ações disponíveis para ele no momento.
+2. Stateless - O mesmo cliente pode fazer várias requisições ao servidor, contato que todas as requests tenham as informações necessárias para 
+que o servidor possa compreender e executar, enviando uma resposta ao cliente que também deve conter as informações solicitadas. Entretanto, todas as 
+informações de estado ficam com o cliente, inclusive os dados sobre as sessões anteriores assim o seridor interpreta cada uma como uma nova sessão.
 
-Ter um sistema em camadas que organiza os tipos de servidores (responsáveis pela segurança, pelo carregamento de carga e assim por diante) envolvidos na recuperação das informações solicitadas em hierarquias que o cliente não pode ver.
-Possibilitar código sob demanda (opcional): a capacidade de enviar um código executável do servidor para o cliente quando solicitado para ampliar a funcionalidade disponível ao cliente. 
-Código sob demanda
+3. Cacheable - Como citado anteriormente o mesmo cliente pode fazer várias requições ao servidor, assim como vários clientes podem solicitar o mesmo 
+recurso. A alta demanda dessas solicitações pode afetar a performance do servidor, para que isso não ocorra o servidor pode armazenar no cache o 
+recurso ápos executar a solicitação pela primeira vez, os demais clientes que repetirem a solicitação receberão o que está no cache. O tempo que o cache
+armazena o recurso varia. 
 
-Permite que um código do cliente seja baixado e usado dentro do aplicativo. É uma restrição opcional e menos usada
+4. Uniform Interface - São regras para padronização da comunicação entre cliente e servidor para que qualquer cliente possa interagir com a API REST.
+
+Identificação: Cada recurso deve ter uma URI (Uniform Resource Identifier) e um verbo HTTP (PUT, GET, POST, DELETE) para ser acessado. A URI 
+mais comum é a URL que identifica e localiza o recurso na Web.
+EXEMPLO:   
+HTTP/1.1 GET http://exemplo.com/usario/fulano
+
+Representação: É a resposta do servidor, a forma como o recurso é devolvido que pode ser em HTML, XML, JSON, entre outras. 
+EXEMPLO: 
+{
+"nome": "fulano",
+"profissao": "programador",
+}
+
+Resposta auto-explicativa: Além da informações que podem ser passadas, como vista acima, também é necessário passar metadados tanto na requisição
+quanto na resposta. 
+EXEMPLO: 
+GET /#!/usuario/fulano HTTP/1.1
+User-Agent: Chrome/37.0.2062.94
+Accept: application/json
+Host: exemplo.com
+
+Hypermedia: Retornar todas as informações necessárias na resposta para que cliente saiba acessar a todos os recursos.
+
+5. Layered System - 
