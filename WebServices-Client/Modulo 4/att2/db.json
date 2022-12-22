@@ -1,0 +1,50 @@
+{
+  "livros": [
+    {
+      "id": 1,
+      "title": "Extraordinário",
+      "author": "Palacio, R.J",
+      "description": "História edificante, repleta de amor e esperança, em que um grupo de pessoas luta para espalhar compaixão, aceitação e gentileza",
+      "isbn": 9986198459601,
+      "price": "59,90",
+      "editoraid": 1
+    },
+    {
+      "id": 2,
+      "title": "Um lugar bem longe daqui",
+      "author": "Owens, Delia",
+      "description": "Um emocionante romance de formação e uma surpreendente história de mistério",
+      "isbn": 9986198447811,
+      "price": "59,90",
+      "editoraid": 1
+    },
+    {
+      "id": 3,
+      "title": "Um ano solitário",
+      "author": "Oseman, Alice",
+      "description": "Quando As Brincadeiras Do Solitaire Ficam Sérias Demais E Pessoas Começam A Se Machucar, Tori É Obrigada A Sair De Sua Zona De Conforto.",
+      "isbn": 9986198455621,
+      "price": "49,90",
+      "editoraid": 2
+    },
+    {
+      "id": 4,
+      "title": "BOX HARRY POTTER",
+      "author": "Rowling, J.K.",
+      "description": "Esse box especial e inédito é feito para você que gosta das capas tradicionais de Harry Potter. Os sete livros da saga do bruxo mais querido do mundo reunidos.",
+      "isbn": 99861984589689,
+      "price": "199,95",
+      "editoraid": 2
+    }
+  ],
+  "editora": [
+    {
+      "id": 1,
+      "name": "Editora Intrinseca"
+    },
+    {
+      "id": 2,
+      "name": "Rocco"
+    }
+  ]
+}
