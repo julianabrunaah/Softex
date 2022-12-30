@@ -1,0 +1,1 @@
+Atividade proposta: Você está prestes a abrir uma floricultura em um ponto central da sua cidade e percebeu que não existem estabelecimentos como esse pelas redondezas. Você conhece algumas pessoas que moram próximas ao centro, mas não sabe muito sobre o comércio local. Quais seriam os primeiros passos antes de construir o seu negócio?
