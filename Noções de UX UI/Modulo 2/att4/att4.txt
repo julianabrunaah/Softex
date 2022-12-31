@@ -1,0 +1,10 @@
+Uma empresa, que atua com o desenvolvimento de softwares e apps para smartphones, está criando um aplicativo 
+para uma galeria de arte. O aplicativo permite que os clientes da região possam conhecer ou adquirir obras 
+disponíveis no lugar, marcando visitas e reservando produtos. No entanto, a empresa está preocupada com a 
+interface e os comandos.
+O que você recomenda para diminuir essas inseguranças e os riscos?
+
+O recomendado é criar um protótipo de alta finalidade, uma representação mais próxima do resultado final com
+interface e os comandos ao cliente (Galeria de arte) e a alguns usuários e caso necessário modificar o que 
+for solicitado. Tanto resultados negativos quanto positivos são importantes, pois podem indicar acertos e 
+possíveis melhorias para o resultado final.  
