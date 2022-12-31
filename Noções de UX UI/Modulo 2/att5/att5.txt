@@ -1,0 +1,19 @@
+A startup EduDesign foi contratada pela escola Atena para desenvolver uma solução tecnológica educacional.
+A gestora escolar relatou que precisa de um aplicativo para gerenciar as notas dos estudantes e de uma 
+comunicação mais direta com os responsáveis pelos alunos.
+
+Seguindo as etapas do Design Thinking, a equipe da startup desenvolveu um protótipo do aplicativo, mas não 
+sabe se atende às expectativas reais dos envolvidos. Quais estratégias você utilizaria para a solução deste 
+desafio?
+
+A melhor estratégia é fazer a validação do protótipo. Para isso é necessário identificar quem serão os 
+possíveis usuários da plataforma e o que cada poderá acessar dentro da plataforma, visto que além de solicitar 
+um ambiente para gerenciar as notas dos estudantes, também foi requisitado aos desenvolvedores um espaço para 
+comunicação com os responsáveis. Porém mesmo com acesso a plataforma, os responsáveis não devem ter acesso a 
+incluir, modificar e deletar dados sobre os estudantes do sistema. 
+Os usuários da plataforma deve ser gestores, coordenadores, professores e os responsáveis pelos alunos. Todos 
+terão acesso ao protótipo e uma matriz de feedback , onde eles poderão apontar pontos positivos, negativos, 
+oportunidades e sugestões, contribuindo dessa forma com a melhoria do protótipo e um resultado final 
+satisfatório. Também é importante não dar grandes explicações sobre o aplicativo, pois é preciso avaliar toda 
+a experiência do usuário incluindo a usabilidade. Os desenvolvedores devem acompanhar todo o processo de 
+validação de perto. 
