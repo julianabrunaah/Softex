@@ -1,0 +1,15 @@
+Escolha uma ou mais tarefas que um usuário deve realizar para testar um site, aplicativo ou plataforma. A partir disso, analise o comportamento dele com a interface escolhida, considerando um dos elementos citados por Nielsen:
+
+facilidade de aprendizado;
+eficiência de uso;
+facilidade de memorização;
+erros;
+satisfação.
+
+Exemplo:  Publicar foto com legenda 
+
+- Facilidade de aprendizado: Grau de facilidade do usuário ao publicar uma foto 
+- Eficiência de uso: Se é possível editar a publicação para corrigir erros, voltar etapa ou cancelar o envio. Além de publicar mais de uma vez. 
+- Facilidade de memorização: Se as etapas são simples e de fácil memorização. 
+- Erros: Analisar os casos em que o usuário não consegue tirar a foto, acessar a galeria e/ ou publicar a imagem com todos os elementos escolhidos. 
+- Satisfação: Examinar a experiência do usuário 
