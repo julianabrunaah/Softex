@@ -1,0 +1,13 @@
+Uma empresa quer lançar um produto em um formato escalável para uma grande quantidade de pessoas. Apresente uma proposta de como coletar dados com o usuário considerando as seguintes premissas:
+
+- anteriormente, houve uma tentativa de lançamento deste produto, uma versão beta esteve disponível no mercado durante algum tempo e foi removida;
+- o produto foi concebido sem pesquisa com o usuário.
+
+Indique o tipo de técnica que você sugere e justifique sua escolha.
+
+De início realizar uma pesquisa quantitativa através de entrevistas para tirar conclusões gerais sobre o 
+produto e análise dos dados obtidos. Depois realizar uma pesquisa qualitativa que tende a resultar em 
+informações mais detalhadas. Para essa etapa recomento usar de pesquisa empírica, para entender como as 
+pessoas interagem com o produto. Grupos de discussão online ou presenciais para ouvir diferentes pontos de 
+vista e o que os clientes comentam entre si sobre o tema. Através das informações coletadas nas pesquisas é 
+possível identificar a falhas cometidas e trazer melhoria para o produto. 
